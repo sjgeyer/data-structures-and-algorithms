@@ -8,4 +8,4 @@ Do not use the built-in JavaScript array method .reverse
 
 ## Solution
 
-![whiteboard solution](../assets/reverse-an-array.jpg)
+![whiteboard solution](assets/reverse-an-array.jpg)
