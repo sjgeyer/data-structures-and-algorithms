@@ -11,7 +11,7 @@ product.LargestProduct = (array) => {
   const len = array.length;
   for (let i = 0; i < len; i++) {
     if (i !== len - 1) productD = array[i][j] * array[i + 1][j]; // DOWN
-    if (j !== array[i].length) productR = array[i][j] * array[i][j + 1]; // RIGHT
+    if (j !== array[i].length - 1) productR = array[i][j] * array[i][j + 1]; // RIGHT
     intermediateMax = Math.max(productR, productD);
     if (intermediateMax > currentMax) currentMax = intermediateMax;
     j += 1;
