@@ -7,3 +7,4 @@ Repo for all whiteboarding challenges in Code 401: Advanced JavaScript
 4. 04-19-2018: Largest Product
 5. 04-23-2018: LinkedList (insertions)
 6. 04-24-2018: LinkedList (find kth from end)
+7. 04-25-2018: LinkedList (merge 2 lists)
