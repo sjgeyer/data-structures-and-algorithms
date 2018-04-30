@@ -8,3 +8,4 @@ Repo for all whiteboarding challenges in Code 401: Advanced JavaScript
 5. 04-23-2018: LinkedList (insertions)
 6. 04-24-2018: LinkedList (find kth from end)
 7. 04-25-2018: LinkedList (merge 2 lists)
+8. 04-30-2018: Queue with Stacks
