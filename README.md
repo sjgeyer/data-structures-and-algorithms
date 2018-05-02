@@ -10,3 +10,4 @@ Repo for all whiteboarding challenges in Code 401: Advanced JavaScript
 7. 04-25-2018: LinkedList (merge 2 lists)
 8. 04-30-2018: Queue with Stacks
 9. 05-01-2018: FIFO Animal Shelter
+10. 05-02-2018: Multi-Bracket Validation
