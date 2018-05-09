@@ -13,3 +13,4 @@ Repo for all whiteboarding challenges in Code 401: Advanced JavaScript
 10. 05-02-2018: Multi-Bracket Validation
 11. 05-07-2018: FizzBuzz Tree
 12. 05-08-2018: Breadth-First Traversal
+13. 05-09-2018: Find Maximum Value in Binary Tree
