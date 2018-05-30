@@ -15,7 +15,7 @@ describe('tree-intersection.js', () => {
   test('should return array of common values with duplicates on tree', () => {
     const root1 = new Node(1, new Node(1), new Node(3));
     const tree1 = new BinaryTree(root1);
-    const root2 = new Node(3, new Node(1), new Node(6));
+    const root2 = new Node(3, new Node(1), new Node(1));
     const tree2 = new BinaryTree(root2);
     expect(treeIntersection(tree1, tree2)).toEqual([3, 1]);
   });

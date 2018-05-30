@@ -7,7 +7,9 @@ const treeIntersection = (tree1, tree2) => {
   const traversal = (node, num) => {
     if (!node) return undefined;
     if (!map[node.value]) map[node.value] = num;
-    if (map[node.value] && map[node.value] !== num) commons.push(node.value);
+    if (map[node.value] && map[node.value] !== num && !commons.includes(node.value)) {
+      commons.push(node.value);
+    }
     traversal(node.left, num);
     traversal(node.right, num);
     return undefined;
