@@ -17,3 +17,4 @@ Repo for all whiteboarding challenges in Code 401: Advanced JavaScript
 14. 05-22-2018: Print Level Order
 15. 05-23-2018: Find Matches
 16. 05-29-2018: Repeated Word
+17. 05-30-2018: Tree Intersections
