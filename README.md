@@ -20,3 +20,4 @@ Repo for all whiteboarding challenges in Code 401: Advanced JavaScript
 17. 05-30-2018: Tree Intersections
 18. 05-31-2018: Left Join
 19. 06-04-2018: Merge sort
+20. 06-05-2018: Quick sort
