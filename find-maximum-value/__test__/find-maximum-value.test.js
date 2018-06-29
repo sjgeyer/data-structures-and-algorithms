@@ -1,7 +1,7 @@
 'use strict';
 
-import BinaryTree from '../binary-tree';
-import Node from '../node';
+import BinaryTree from '../../data-structures/binary-tree/binary-tree';
+import Node from '../../data-structures/binary-tree/node';
 import findMaximumValue from '../find-maximum-value';
 
 describe('find-maximum-value', () => {

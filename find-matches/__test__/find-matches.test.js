@@ -1,8 +1,8 @@
 'use strict';
 
 import FindMatches from '../find-matches';
-import KAryTree from '../k-ary-tree';
-import KAryNode from '../k-ary-node';
+import KAryTree from '../../data-structures/k-ary-tree/k-ary-tree';
+import KAryNode from '../../data-structures/k-ary-tree/k-ary-node';
 
 describe('find-matches.js', () => {
   test('should return all matches as linked list', () => {

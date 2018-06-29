@@ -7,5 +7,5 @@ Create a function that takes in a tree and returns all the values in the tree in
 Create most efficient method possible
 
 ## Solution
-![whiteboard solution](assets/breadth-first-traversal.jpg)
+![whiteboard solution](../assets/breadth-first-traversal.jpg)
 (edited for efficiency)
