@@ -8,5 +8,5 @@ Cannot use ANY built-in array methods.
 
 ## Solution
 
-![whiteboard solution first half](assets/shift-array-1.jpg)
-![whiteboard solution second half](assets/shift-array-2.jpg)
+![whiteboard solution first half](../assets/shift-array-1.jpg)
+![whiteboard solution second half](../assets/shift-array-2.jpg)

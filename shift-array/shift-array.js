@@ -1,18 +1,16 @@
 'use strict';
 
-const shift = module.exports = {};
-
-shift.insertShiftArray = (array, num) => {
-  const index = Math.ceil(array.length / 2);
-  const newArray = [];
-  for (let i = 0; i < array.length + 1; i++) {
-    if (i < index) {
-      newArray[i] = array[i];
-    } else if (i === index) {
-      newArray[i] = num;
-    } else {
-      newArray[i] = array[i - 1];
-    }
+const insertShiftArray = (array, num) => {
+  const middle = Math.ceil(array.length / 2);
+  let prev;
+  let next = num;
+  const len = array.length;
+  for (let i = middle; i <= len; i++) {
+    prev = array[i];
+    array[i] = next;
+    next = prev;
   }
-  return newArray;
+  return array;
 };
+
+export default insertShiftArray;
