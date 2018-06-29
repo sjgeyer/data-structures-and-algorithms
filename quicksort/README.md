@@ -18,4 +18,4 @@ Output:
 
 ## Solution
 
-![whiteboard solution](assets/quicksort.jpg)
+![whiteboard solution](../assets/quicksort.jpg)

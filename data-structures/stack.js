@@ -1,10 +1,10 @@
 'use strict';
 
-import LinkedList from './linked-list';
+import LinkedListWithTail from './linked-list/linked-list-with-tail';
 
 class Stack {
   constructor() {
-    this._storage = new LinkedList();
+    this._storage = new LinkedListWithTail();
   }
 
   push(value) {

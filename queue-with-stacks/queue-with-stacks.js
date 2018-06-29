@@ -1,6 +1,6 @@
 'use strict';
 
-import Stack from './stack';
+import Stack from '../data-structures/stack';
 
 class Queue {
   constructor() {

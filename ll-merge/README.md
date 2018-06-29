@@ -15,4 +15,4 @@ Output: <br/>
 
 ## Solution
 
-![whiteboard solution](assets/ll-merge.jpg)
+![whiteboard solution](../assets/ll-merge.jpg)

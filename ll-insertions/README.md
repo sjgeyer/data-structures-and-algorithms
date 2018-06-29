@@ -1,6 +1,6 @@
 # Linked List Insertions
 
-Create prototypes on the LinkedList (LL) class.
+Create prototypes on the LinkedListWithTail (LL) class.
 
 ## Challenge
 

@@ -10,7 +10,7 @@ Write at least 3 test assertions to test function.
 
 -EXAMPLE- <br/>
 Input: <br/>
-![whiteboard solution](assets/k-ary.png)
+![whiteboard solution](../assets/k-ary.png)
 
 Output: <br/>
 
@@ -21,4 +21,4 @@ Output: <br/>
         
 ## Solution
 
-![whiteboard solution](assets/print-level-order.jpg)
+![whiteboard solution](../assets/print-level-order.jpg)

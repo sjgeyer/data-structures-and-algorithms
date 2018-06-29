@@ -18,4 +18,4 @@ Output:
 
 ## Solution
 
-![whiteboard solution](assets/repeated-word.jpg)
+![whiteboard solution](../assets/repeated-word.jpg)

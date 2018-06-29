@@ -1,7 +1,7 @@
 'use strict';
 
-import KAryTree from '../k-ary-tree';
-import KAryNode from '../k-ary-node';
+import KAryTree from '../../data-structures/k-ary-tree/k-ary-tree';
+import KAryNode from '../../data-structures/k-ary-tree/k-ary-node';
 import PrintLevelOrder from '../print-level-order';
 
 describe('print-level-order.js', () => {

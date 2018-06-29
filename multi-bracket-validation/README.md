@@ -18,4 +18,4 @@ Examples:
 
 ## Solution
 
-![whiteboard solution](assets/multi-bracket-validation.jpg)
+![whiteboard solution](../assets/multi-bracket-validation.jpg)

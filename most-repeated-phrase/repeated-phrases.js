@@ -1,3 +1,4 @@
+'use strict';
 
 const parsePhrases = (array) => {
   const phrases = [];
@@ -30,6 +31,7 @@ const cleanMap = (map) => {
 };
 
 const mostRepeatedPhrases = (input) => {
+  if (typeof input !== 'string') throw new Error('input must be a string');
   let map = {};
   const result = [];
   const sentences = input
@@ -53,22 +55,4 @@ const mostRepeatedPhrases = (input) => {
   return result.slice(0, 10).map(key => key.phrase);
 };
 
-// --------------------------- TEST CASES ----------------------------
-// given test
-const testInput = 'The quick brown fox jumped over the lazy dog. The lazy dog, peeved to be labeled lazy, jumped over a snoring turtle. In retaliation the quick brown fox jumped over ten snoring turtles. Then the quick brown fox refueled with some ice cream.';
-
-// random repetitive phrase found online
-const testInput2 = 'Nory was a Catholic because her mother was a Catholic, and Nory’s mother was a Catholic because her father was a Catholic, and her father was a Catholic because his mother was a Catholic, or had been.';
-
-// testing for top 10/sorting
-const testInput3 = 'dog eats cat. dog eats cat. cat eats mouse. cat eats mouse. mouse eats cheese. mouse eats cheese. cheese is from cow. cheese is from cow. cow is from meadow. cow is from meadow. cow is from meadow. cow is from meadow. meadow is from earth. meadow is from earth. earth is from space. earth is from space. space is from nothing. space is from nothing. space is from nothing. nothing is from nowhere. nothing is from nowhere. nowhere is from everywhere. nowhere is from everywhere. i don\'t know another one. i don\'t know another one.';
-
-const testInput4 = '';
-
-console.log(mostRepeatedPhrases(testInput));
-
-console.log(mostRepeatedPhrases(testInput2));
-
-console.log(mostRepeatedPhrases(testInput3));
-
-console.log(mostRepeatedPhrases(testInput4));
+export default mostRepeatedPhrases;

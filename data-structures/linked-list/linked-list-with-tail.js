@@ -2,7 +2,7 @@
 
 import Node from './node';
 
-class LinkedList {
+class LinkedListWithTail {
   constructor() {
     this.head = null;
     this.tail = null;
@@ -46,4 +46,4 @@ class LinkedList {
   }
 }
 
-export default LinkedList;
+export default LinkedListWithTail;
