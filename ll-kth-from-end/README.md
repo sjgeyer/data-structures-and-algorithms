@@ -10,4 +10,4 @@ LinkedList and Node classes are available, as are all previously defined methods
     
 ## Solution
 
-![whiteboard solution](assets/ll-kth-from-end.jpg)
+![whiteboard solution](../assets/ll-kth-from-end.jpg)

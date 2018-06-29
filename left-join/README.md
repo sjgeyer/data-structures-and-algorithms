@@ -32,4 +32,4 @@ Output:
 
 ## Solution
 
-![whiteboard solution](assets/left-join.jpg)
+![whiteboard solution](../assets/left-join.jpg)

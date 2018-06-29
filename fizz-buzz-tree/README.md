@@ -12,7 +12,7 @@ Create a function that takes in a tree and manipulates it in the following ways:
 Return the new tree.
 
 ## Solution
-![whiteboard solution](assets/fizz-buzz-tree.jpg)
+![whiteboard solution](../assets/fizz-buzz-tree.jpg)
 
 Edit:
 Space: O(H), where H = height of tree because the traversal function creates copies of `node` every time it is called.

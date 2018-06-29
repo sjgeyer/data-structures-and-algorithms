@@ -10,4 +10,4 @@ Create prototypes: <br/>
     - `.insertAfter(value, newValue)` : Should add newValue node after node with specified value.
 ## Solution
 
-![whiteboard solution](assets/ll-insertions.jpg)
+![whiteboard solution](../assets/ll-insertions.jpg)

@@ -8,5 +8,5 @@ Do not use any built-in JavaScript methods.
 
 ## Solution
 
-![whiteboard solution](assets/largest-product.jpg)
+![whiteboard solution](../assets/largest-product.jpg)
 Not pictured: O(N*array[i].length)

@@ -7,5 +7,5 @@ Create a function that takes in a binary tree and returns the maximum value in t
 Function must be O(n) or better in time and O(h) or better in space, where n = number of nodes in the tree, and h = height of the tree.
 
 ## Solution
-![whiteboard solution](assets/find-maximum-value.jpg)
+![whiteboard solution](../assets/find-maximum-value.jpg)
 

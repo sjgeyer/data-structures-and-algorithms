@@ -10,4 +10,4 @@ Implement the following methods:
 
 ## Solution
 
-![whiteboard solution](assets/fifo-animal-shelter.jpg)
+![whiteboard solution](../assets/fifo-animal-shelter.jpg)

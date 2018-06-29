@@ -8,4 +8,4 @@ Find the optimal solution.
 
 ## Solution
 
-![whiteboard solution](assets/find-matches.jpg)
+![whiteboard solution](../assets/find-matches.jpg)

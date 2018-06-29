@@ -1,6 +1,6 @@
 'use strict';
 
-const LinkedList = require('../ll-insertions');
+import LinkedList from '../ll-insertions';
 
 describe('ll-insertions.js', () => {
   test('#append', () => {
