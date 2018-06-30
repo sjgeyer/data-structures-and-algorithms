@@ -3,11 +3,10 @@
 const parsePhrases = (array) => {
   const phrases = [];
   const len = array.length;
-  for (let i = 0; i < len - 2; i++) {
-    const phraseLength = Math.min(len, 10);
-    for (let j = 3; j <= phraseLength; j++) {
+  for (let i = 0; i < len; i++) {
+    for (let j = 3; j <= len; j++) {
       const phrase = array.slice(i, j);
-      if (phrase.length >= 3) phrases.push(phrase.join(' ').toLowerCase());
+      if (phrase.length > 2 && phrase.length < 11) phrases.push(phrase.join(' ').toLowerCase());
     }
   }
   return phrases;
@@ -35,6 +34,7 @@ const mostRepeatedPhrases = (input) => {
   let map = {};
   const result = [];
   const sentences = input
+    .replace(/["()]/g, '')
     .split(/[.!?,]/g)
     .filter(sentence => sentence !== '')
     .map(sentence => sentence.trim().split(' '));
