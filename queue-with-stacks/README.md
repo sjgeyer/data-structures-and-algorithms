@@ -10,4 +10,4 @@ Perform FIFO using only LIFO methods.
 
 ## Solution
 
-![whiteboard solution](assets/queue-with-stacks.jpg)
+![whiteboard solution](../assets/queue-with-stacks.jpg)

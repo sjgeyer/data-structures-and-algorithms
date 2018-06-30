@@ -18,5 +18,5 @@ Output:
 
 ## Solution
 
-![whiteboard solution](assets/mergesort-1.jpg)
-![whiteboard solution](assets/mergesort-2.jpg)
+![whiteboard solution](../assets/mergesort-1.jpg)
+![whiteboard solution](../assets/mergesort-2.jpg)

@@ -1,8 +1,7 @@
 'use strict';
 
 import Queue from 'queue-fifo';
-import LinkedList from './linked-list';
-
+import LinkedList from '../data-structures/linked-list/linked-list';
 
 const FindMatches = (tree, input) => {
   if (!tree || !input) throw new Error('Required arguments missing');

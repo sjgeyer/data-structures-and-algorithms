@@ -1,8 +1,8 @@
 'use strict';
 
 import treeIntersection from '../tree-intersection';
-import BinaryTree from '../binary-tree';
-import Node from '../node';
+import BinaryTree from '../../data-structures/binary-tree/binary-tree';
+import Node from '../../data-structures/binary-tree/node';
 
 describe('tree-intersection.js', () => {
   test('should return array of common values, no dupes on single tree', () => {

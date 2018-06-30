@@ -1,6 +1,6 @@
 'use strict';
 
-import Queue from './queue';
+import Queue from '../data-structures/queue';
 
 const breadthFirstTraversal = (tree) => {
   const queue = new Queue();

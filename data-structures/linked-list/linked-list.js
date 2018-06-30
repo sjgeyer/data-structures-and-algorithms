@@ -1,13 +1,20 @@
 'use strict';
 
-const Node = require('./node');
+import Node from './node';
 
-module.exports = class LinkedList {
+class LinkedList {
   constructor() {
     this.head = null;
   }
 
-  append(value) {
+  insertAtHead(value) {
+    const node = new Node(value);
+    node.next = this.head;
+    this.head = node;
+    return this;
+  }
+
+  push(value) {
     const node = new Node(value);
     if (!this.head) {
       this.head = node;
@@ -20,4 +27,6 @@ module.exports = class LinkedList {
     currentNode.next = node;
     return this;
   }
-};
+}
+
+export default LinkedList;

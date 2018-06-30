@@ -1,7 +1,7 @@
 'use strict';
 
-import Node from '../node';
-import BinaryTree from '../binary-tree';
+import Node from '../../data-structures/binary-tree/node';
+import BinaryTree from '../../data-structures/binary-tree/binary-tree';
 import FizzBuzzTree from '../fizz-buzz-tree';
 
 describe('fizz-buzz-tree.js', () => {

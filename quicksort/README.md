@@ -10,12 +10,12 @@ Perform a recursive [quick sort](https://en.wikipedia.org/wiki/Quicksort) on the
 
 Input:
 
-  [8, 4324, -4, 12]
+    [8, 4324, -4, 12]
 
 Output:
 
-  [-4, 8, 12, 4324]
+    [-4, 8, 12, 4324]
 
 ## Solution
 
-![whiteboard solution](assets/quicksort.jpg)
+![whiteboard solution](../assets/quicksort.jpg)

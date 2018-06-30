@@ -22,4 +22,4 @@ Output:
     [4, 3, 1, 2]
 
 ## Solution
-![whiteboard solution](assets/tree-intersection.jpg)
+![whiteboard solution](../assets/tree-intersection.jpg)

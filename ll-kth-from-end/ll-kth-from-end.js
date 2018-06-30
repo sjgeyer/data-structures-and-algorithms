@@ -1,24 +1,11 @@
 'use strict';
 
-const Node = require('./node');
+import LinkedList from '../data-structures/linked-list/linked-list';
 
-module.exports = class LinkedList {
-  constructor() {
+export default class LinkedListKth extends LinkedList {
+  constructor(props) {
+    super(props);
     this.head = null;
-  }
-
-  append(value) {
-    const node = new Node(value);
-    if (!this.head) {
-      this.head = node;
-      return this;
-    }
-    let currentNode = this.head;
-    while (currentNode.next) {
-      currentNode = currentNode.next;
-    }
-    currentNode.next = node;
-    return this;
   }
 
   kthFromEnd(k) {
@@ -37,4 +24,4 @@ module.exports = class LinkedList {
     }
     return currentNode;
   }
-};
+}

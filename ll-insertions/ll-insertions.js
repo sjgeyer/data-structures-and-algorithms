@@ -1,8 +1,8 @@
 'use strict';
 
-const Node = require('./node');
+import Node from '../data-structures/linked-list/node';
 
-module.exports = class LinkedList {
+export default class LinkedList {
   constructor() {
     this.head = null;
   }
@@ -53,4 +53,4 @@ module.exports = class LinkedList {
     currentNode.next = node;
     return this;
   }
-};
+}
