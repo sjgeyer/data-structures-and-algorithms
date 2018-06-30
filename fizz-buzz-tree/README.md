@@ -11,6 +11,25 @@ Create a function that takes in a tree and manipulates it in the following ways:
 
 Return the new tree.
 
+## Example
+
+Input:
+          
+           [5]
+          /   \
+        [3]   [1]
+       /   \     \
+     [6]   [9]   [15]
+
+Output:
+
+        ['Buzz']
+          /   \
+     ['Fizz']  [1]
+       /   \     \
+     [6]   [9] ['FizzBuzz']
+
+
 ## Solution
 ![whiteboard solution](../assets/fizz-buzz-tree.jpg)
 

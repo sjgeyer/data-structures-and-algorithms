@@ -6,6 +6,12 @@ Take in a sorted array and a search key and perform a binary search and return t
 
 Do not use any built-in JavaScript methods (e.g. .indexOf)
 
+## Examples
+
+        [1, 4, 7, 9, 10, 65], 10 // => 4
+
+        [1, 4, 7, 9, 10, 65], 9 // => -1
+
 ## Solution
 
 ![whiteboard solution](../assets/binary-search.jpg)

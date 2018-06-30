@@ -6,14 +6,13 @@ Create a function that takes in a string as an input and returns a boolean true/
 
 In the function, validate that the brackets are in correct order, where no outer bracket will close before a nested one, and each opening brace has a closing brace (and vice versa).
 
-Examples:
-- `[{()}]` returns `true`
-- `[]{}()` returns `true`
-- `[{word}]()()` returns `true`
+## Examples
 
-
-- `{{}]}` returns `false`
-- `[({)}word]` returns `false`
+    [{()}]          //=>  true
+    []{}()          //=>  true
+    [{word}]()()    //=>  true
+    {{}]}           //=>  false
+    [({)}word]      //=>  false
 
 
 ## Solution
