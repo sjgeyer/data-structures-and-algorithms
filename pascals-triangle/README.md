@@ -20,3 +20,4 @@ Output:
         
 ## Solution
 
+![whiteboard solution](../assets/pascals-triangle.jpg);

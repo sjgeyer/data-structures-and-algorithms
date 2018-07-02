@@ -1,7 +1,8 @@
 'use strict';
 
 const printTriangle = (n) => {
-  if (typeof n !== 'number') throw new Error('invalid input. input must be a number');
+  if (typeof n !== 'number') throw new Error('invalid input. input must be integer');
+  if (n <= 0) throw new Error('invalid input. input must be integer greater than 0');
   if (n === 1) return [[1]];
   const triangle = [[1], [1, 1]];
   for (let i = 1; i < n - 1; i++) {
