@@ -9,6 +9,7 @@ Second function: Nodes must have the same value but can be in different location
 
 ## Examples
 
+First function:
 1. 
           tree1               tree2
           
@@ -26,3 +27,23 @@ Second function: Nodes must have the same value but can be in different location
         [2]   [3]           [2]   [3]
              /   \         /         \
            [4]   [5]     [4]         [5]
+
+
+Second function:
+1. 
+          tree1               tree2
+          
+           [1]                 [5]
+          /   \               /   \             // => true
+        [2]   [3]           [4]   [3]
+             /   \               /   \
+           [4]   [5]           [2]   [1]
+
+2.
+          tree1               tree2
+          
+           [1]                 [1]
+          /   \               /   \             // => false
+        [2]   [3]           [2]   [3]
+             /   \         /     /   \
+           [4]   [5]     [4]    [1]  [5]
