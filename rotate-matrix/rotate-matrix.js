@@ -24,16 +24,14 @@ const rotateCorners = (matrix) => {
 
 const rotate = (matrix) => {
   const height = matrix.length;
-  const width = matrix[0].length;
   if (height !== 3) throw new Error('invalid input. matrix must be 9x9');
-  if (width !== 3) throw new Error('invalid input. matrix must be 9x9');
+  const width1 = matrix[0].length;
+  const width2 = matrix[0].length;
+  const width3 = matrix[0].length;
+  if (width1 !== 3 || width2 !== 3 || width3 !== 3) throw new Error('invalid input. matrix must be 9x9');
   matrix = rotateMiddles(matrix); // eslint-disable-line
   matrix = rotateCorners(matrix); // eslint-disable-line
   return matrix;
 };
-
-const matrix = [[1, 1, 1], [2, 2, 2], [3, 3, 3]];
-
-console.log(rotate(matrix));
 
 export default rotate;
