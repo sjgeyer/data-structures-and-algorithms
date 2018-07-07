@@ -1,10 +1,11 @@
 # Compare Two Trees
 
-Write a function that takes in two trees and checks that the two trees are the same.
+Write two functions that takes in two trees and checks that the two trees are the same.
 
 ## Challenge
 
-Nodes must have the same value and be in the same location
+First function: Nodes must have the same value and be in the same location.
+Second function: Nodes must have the same value but can be in different locations.
 
 ## Examples
 
