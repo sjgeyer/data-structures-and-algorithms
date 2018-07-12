@@ -8,3 +8,4 @@ Repo for all whiteboard challenges and problems.
 - Queue
 - Stack
 - Linked list
+- Arrays
