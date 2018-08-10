@@ -1,7 +1,7 @@
 'use strict';
 
 const findTriangles = (array) => {
-  if (!array) throw new Error('must input array');
+  if (!array) throw new Error('missing input');
   if (!Array.isArray(array)) throw new Error('invalid input type. must input array');
 
   const triangles = [];
