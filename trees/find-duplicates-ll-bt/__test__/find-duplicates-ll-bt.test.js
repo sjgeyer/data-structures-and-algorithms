@@ -19,6 +19,8 @@ describe('find duplicates in linked list and binary tree', () => {
 
     expect(result.has(5)).toBe(true);
     expect(result.has(4)).toBe(true);
+    expect(result.has(7)).toBe(false);
+    expect(result.has(6)).toBe(false);
   });
   test('should throw error if input is missing', () => {
     const tree = new BinaryTree();
