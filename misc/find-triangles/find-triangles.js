@@ -13,10 +13,16 @@ const findTriangles = (array) => {
     for (let j = 0; j < remainingNumbers.length; j++) {
       const sumOfTwoSides = sortedArray[i] + remainingNumbers[j];
 
-      // checking that are are any possible options remaining
+      // checking that are are any possible options remaining - if next number in remaining numbers
+      // is larger than the sum already, the rest of the remaining numbers will also be invalid
       if (sumOfTwoSides > remainingNumbers[j + 1]) {
+        // all third sides need to be at least one less than the sum of the other two sides
         let largestOption = remainingNumbers.indexOf(sumOfTwoSides) - 1;
+
+        // establishing a new variable so sumOfTwoSides can be used in forEach down below
         let currentLowest = sumOfTwoSides;
+
+        // if the actual sum of the numbers is not present, find the highest number remaining
         while (largestOption < 0) {
           currentLowest -= 1; // TODO: stop decrementing SUM
           largestOption = remainingNumbers.indexOf(currentLowest);
@@ -29,10 +35,7 @@ const findTriangles = (array) => {
       }
     }
   }
-
   return triangles;
 };
 
 export default findTriangles;
-
-console.log(findTriangles([3, 4, 6, 7]));
